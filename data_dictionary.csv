@@ -1,0 +1,9 @@
+column,dtype,description
+stock_code,object,Unique product ID
+description,object,Product name
+quantity,int64,Number sold of specific product
+invoice_date,datetime,Time of purchase
+unit_price,float64,Price per unit in GBP
+customer_id,float64,Unique customer ID
+country,object,Customer country
+revenue,float64,Quantity × unit_price
